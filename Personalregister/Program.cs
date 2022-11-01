@@ -32,11 +32,6 @@
                 "Lön: " + salary + " SEK/månad"));
         }
 
-        private static void DisplayResult(string message)
-        {
-            Console.WriteLine("Results: ");
-            Console.Write(message);
-
-        }
+        
     }
 }
