@@ -23,14 +23,6 @@
             Console.ReadLine();
 
         }
-
-        private static string ReverseString(string message)
-        {
-            char[] messageArray = message.ToCharArray();
-            Array.Reverse(messageArray);
-            return String.Concat(messageArray);
-        }
-
         private static void DisplayResult(string firstName, string lastName, string salary)
         {
             Console.WriteLine("Medarbetarens uppgifter: ");
