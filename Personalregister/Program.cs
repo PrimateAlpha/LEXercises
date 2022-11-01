@@ -16,10 +16,12 @@
             Console.Write("Employers salary? ");
             string salary = Console.ReadLine();
 
+            // Bråkade med string array ett tag. Tiden rann ut. Behöver plugga mer...
+            //string[] employeeSalary = new [] {firstName, lastName, salary};
 
             DisplayResult(firstName, lastName, salary);
 
-
+            
             Console.ReadLine();
 
         }
